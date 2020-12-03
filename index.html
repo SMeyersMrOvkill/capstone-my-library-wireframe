@@ -8,13 +8,39 @@
 <body>
     <nav>
         <ul>
-            <li>books</li>
+            <li><a href="#">all books</a></li>
+            <li><a href="#">random book</a></li>
         </ul>
     </nav>
     <section class="main">
         <div id="controls">
             <label for="add">Add a Book</label>
             <a href="add-book.html"><button id="add">+</button></a>
+            <label for="rating">Sort by rating</label>
+            <select id="rating">
+                <option selected>All</option>
+                <option>1 and up</option>
+                <option>2 and up</option>
+                <option>3 and up</option>
+                <option>4 and up</option>
+                <option>5</option>
+            </select>
+            <label for="genre">Sort by Genre</label>
+            <select id="genre">
+                <option selected>All</option>
+                <option>Young Adult</option>
+                <option>Fantasy</option>
+                <option>Children's</option>
+                <option>Literary Fiction</option>
+                <option>Science Fiction</option>
+                <option>Thriller/Suspense</option>
+                <option>Middle Grade</option>
+                <option>Romance</option>
+                <option>Picture Book</option>
+                <option>Historical Fiction</option>
+                <option>Horror</option>
+            </select>
+            <button id="alpha">Alphabetize</button>
         </div>
         <div id="container">
             <book id="aaa-aa-aaaa">
